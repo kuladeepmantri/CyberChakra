@@ -40,31 +40,6 @@ def scan_ports(ip_address, ports, num_threads=1):
 
 
 
-# def scan_animation(num_ports):
-#     # Create the animation frames
-#     frames = [
-#         "पोर्ट स्कैन हो रहे हैं... १",
-#         "पोर्ट स्कैन हो रहे हैं... १ २",
-#         "पोर्ट स्कैन हो रहे हैं... १ २ ३",
-#         "पोर्ट स्कैन हो रहे हैं... १ २ ३ ४",
-#         "पोर्ट स्कैन हो रहे हैं... १ २ ३ ४ ५",
-#         "पोर्ट स्कैन हो रहे हैं... १ २ ३ ४ ५ ६",
-#         "पोर्ट स्कैन हो रहे हैं... १ २ ३ ४ ५ ६ ७",
-#         "पोर्ट स्कैन हो रहे हैं... १ २ ३ ४ ५ ६ ७ ८",
-#         "पोर्ट स्कैन हो रहे हैं... १ २ ३ ४ ५ ६ ७ ८ ९",
-#         "पोर्ट स्कैन हो रहे हैं... १ २ ३ ४ ५ ६ ७ ८ ९ १०",
-#     ]
-
-#     # Loop until the scan is finished
-#     while True:
-#         # Print the animation frames
-#         for i in range(num_ports):
-#             print(frames[i % len(frames)], end="\r")
-#             time.sleep(0.025)
-#         # Clear the line with the animation
-#         print(" " * 50, end="\r")
-
-
 
 
 
